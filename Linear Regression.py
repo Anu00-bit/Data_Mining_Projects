@@ -44,7 +44,7 @@ rmse = np.sqrt(mse)
 r2 = r2_score(y_test, y_pred)
 
 print ("\nModel Evaluation: ")
-print("MAE:", round(mae, 3f))
+print("MAE:", round(mae, 3))
 print("MSE:", round(mse, 3))
 print("RMSE:", round(rmse, 3))
 print("R-squared:", round(r2, 3))
