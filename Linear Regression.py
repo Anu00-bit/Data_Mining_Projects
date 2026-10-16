@@ -25,7 +25,7 @@ df = df.dropna()
 X = df[["rm"]]
 y = df["medv"]
 
-# 4. Splitting into training and testing sets
+# Splitting into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
